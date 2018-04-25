@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1521122665 source:/home/mateusz/Documents/SysOpy studies/Lab2/main/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1521217572 source:/home/mateusz/Documents/SysOpy studies/Lab2/CodeBlocks/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<sys/times.h>
+

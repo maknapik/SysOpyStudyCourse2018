@@ -1,0 +1,31 @@
+all: static shared clean
+
+static:
+	gcc -c -Wall lib1.c
+	ar rcs lib1.a lib1.o
+
+shared:
+	gcc -c -Wall -fPIC lib1.c
+	gcc -shared -fPIC -o lib1.so lib1.o
+
+clean:
+	rm -f *.o
+
+static_test_foo:
+	make static
+	gcc -o main_static main.c lib1.a -std=c11 -I . -Wall -O$(optim)
+	make main_static
+
+dynamic_test_foo:
+	make shared
+	gcc -o main_dynamic main_dynamic.c -std=c11 -I . -Wall -O$(optim)
+	make main_dynamic
+
+shared_test_foo:
+	make shared
+	gcc -o main_shared main.c -L. lib1.so -std=c11 -I . -Wall -O$(optim)
+	make main_shared
+
+
+test:
+./main_static 1 2 3 4

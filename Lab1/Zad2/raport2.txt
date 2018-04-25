@@ -1,0 +1,16 @@
+Creating table
+User time: 105 
+System time: 4 
+Real time: 1 s 99928881 ns
+Creating table
+User time: 33 
+System time: 0 
+Real time: 0 s 331431870 ns
+Creating table
+User time: 0 
+System time: 0 
+Real time: 0 s 4025950 ns
+Creating table
+User time: 1 
+System time: 0 
+Real time: 0 s 3997215 ns

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1522869377 source:/home/mateusz/Documents/SysOpyStudies/main/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<signal.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<sys/resource.h>
+

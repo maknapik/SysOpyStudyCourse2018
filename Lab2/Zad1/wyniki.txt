@@ -1,0 +1,344 @@
+
+sys
+
+
+Elements: 1000, size: 4
+
+Data generation
+
+User time: 0 
+System time: 0 
+
+Elements: 1000, size: 4
+
+Copying sys
+
+User time: 0 
+System time: 0 
+
+Elements: 1000, size: 4
+
+Sorting sys
+
+User time: 6 
+System time: 32 
+
+Elements: 10000, size: 4
+
+Data generation
+
+User time: 0 
+System time: 0 
+
+Elements: 10000, size: 4
+
+Copying sys
+
+User time: 0 
+System time: 2 
+
+Elements: 10000, size: 4
+
+Sorting sys
+
+User time: 474 
+System time: 3236 
+
+Elements: 5000, size: 512
+
+Data generation
+
+User time: 3 
+System time: 0 
+
+Elements: 5000, size: 512
+
+Copying sys
+
+User time: 0 
+System time: 1 
+
+Elements: 5000, size: 512
+
+Sorting sys
+
+User time: 152 
+System time: 1032 
+
+Elements: 8000, size: 512
+
+Data generation
+
+User time: 4 
+System time: 0 
+
+Elements: 8000, size: 512
+
+Copying sys
+
+User time: 0 
+System time: 2 
+
+Elements: 8000, size: 512
+
+Sorting sys
+
+User time: 384 
+System time: 2695 
+
+Elements: 2000, size: 4096
+
+Data generation
+
+User time: 7 
+System time: 0 
+
+Elements: 2000, size: 4096
+
+Copying sys
+
+User time: 0 
+System time: 1 
+
+Elements: 2000, size: 4096
+
+Sorting sys
+
+User time: 74 
+System time: 431 
+
+Elements: 2600, size: 4096
+
+Data generation
+
+User time: 11 
+System time: 0 
+
+Elements: 2600, size: 4096
+
+Copying sys
+
+User time: 0 
+System time: 1 
+
+Elements: 2600, size: 4096
+
+Sorting sys
+
+User time: 116 
+System time: 736 
+
+Elements: 1200, size: 8192
+
+Data generation
+
+User time: 10 
+System time: 0 
+
+Elements: 1200, size: 8192
+
+Copying sys
+
+User time: 0 
+System time: 0 
+
+Elements: 1200, size: 8192
+
+Sorting sys
+
+User time: 44 
+System time: 251 
+
+Elements: 1600, size: 8192
+
+Data generation
+
+User time: 13 
+System time: 0 
+
+Elements: 1600, size: 8192
+
+Copying sys
+
+User time: 0 
+System time: 1 
+
+Elements: 1600, size: 8192
+
+Sorting sys
+
+User time: 59 
+System time: 463 
+
+lib
+
+
+Elements: 1000, size: 4
+
+Data generation
+
+User time: 0 
+System time: 0 
+
+Elements: 1000, size: 4
+
+Copying lib
+
+User time: 0 
+System time: 0 
+
+Elements: 1000, size: 4
+
+Sorting lib
+
+User time: 8 
+System time: 34 
+
+Elements: 10000, size: 4
+
+Data generation
+
+User time: 0 
+System time: 0 
+
+Elements: 10000, size: 4
+
+Copying lib
+
+User time: 0 
+System time: 0 
+
+Elements: 10000, size: 4
+
+Sorting lib
+
+User time: 1054 
+System time: 3122 
+
+Elements: 5000, size: 512
+
+Data generation
+
+User time: 2 
+System time: 0 
+
+Elements: 5000, size: 512
+
+Copying lib
+
+User time: 0 
+System time: 0 
+
+Elements: 5000, size: 512
+
+Sorting lib
+
+User time: 371 
+System time: 1142 
+
+Elements: 8000, size: 512
+
+Data generation
+
+User time: 3 
+System time: 0 
+
+Elements: 8000, size: 512
+
+Copying lib
+
+User time: 0 
+System time: 0 
+
+Elements: 8000, size: 512
+
+Sorting lib
+
+User time: 973 
+System time: 2872 
+
+Elements: 2000, size: 4096
+
+Data generation
+
+User time: 8 
+System time: 0 
+
+Elements: 2000, size: 4096
+
+Copying lib
+
+User time: 0 
+System time: 1 
+
+Elements: 2000, size: 4096
+
+Sorting lib
+
+User time: 118 
+System time: 518 
+
+Elements: 2600, size: 4096
+
+Data generation
+
+User time: 11 
+System time: 0 
+
+Elements: 2600, size: 4096
+
+Copying lib
+
+User time: 0 
+System time: 0 
+
+Elements: 2600, size: 4096
+
+Sorting lib
+
+User time: 185 
+System time: 885 
+
+Elements: 1200, size: 8192
+
+Data generation
+
+User time: 10 
+System time: 0 
+
+Elements: 1200, size: 8192
+
+Copying lib
+
+User time: 0 
+System time: 0 
+
+Elements: 1200, size: 8192
+
+Sorting lib
+
+User time: 57 
+System time: 289 
+
+Elements: 1600, size: 8192
+
+Data generation
+
+User time: 13 
+System time: 0 
+
+Elements: 1600, size: 8192
+
+Copying lib
+
+User time: 0 
+System time: 1 
+
+Elements: 1600, size: 8192
+
+Sorting lib
+
+User time: 104 
+System time: 499 
+
+WNIOSKI: Funkcje systemowe z reguły zajmują mniej czasu użytkownika i czasu systemowego do posortowania rekordów w pliku

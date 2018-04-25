@@ -1,0 +1,3 @@
+/home/mateusz/Documents/SysOpyStudies/Lab5/CLion2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mateusz/Documents/SysOpyStudies/Lab5/CLion2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mateusz/Documents/SysOpyStudies/Lab5/CLion2/cmake-build-debug/CMakeFiles/CLion2.dir

@@ -1,0 +1,507 @@
+
+static library
+
+
+static
+
+Creating table
+User time: 6 
+System time: 2 
+Real time: 0 s 95700323 ns
+
+Finding index
+
+User time: 3 
+System time: 1 
+Real time: 0 s 29092986 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 208316 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 158446 ns
+Creating table
+User time: 56 
+System time: 2 
+Real time: 0 s 587388961 ns
+
+Finding index
+
+User time: 17 
+System time: 0 
+Real time: 0 s 173085991 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 1371900 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 1555068 ns
+Creating table
+User time: 266 
+System time: 2 
+Real time: 2 s 687302302 ns
+
+Finding index
+
+User time: 77 
+System time: 0 
+Real time: 0 s 770569990 ns
+
+Delete and add blocks
+User time: 1 
+System time: 0 
+Real time: 0 s 9562368 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 9613802 ns
+Creating table
+User time: 541 
+System time: 2 
+Real time: 5 s 441974195 ns
+
+Finding index
+
+User time: 150 
+System time: 0 
+Real time: 1 s 499539173 ns
+
+Delete and add blocks
+User time: 1 
+System time: 0 
+Real time: 0 s 13217534 ns
+
+Delete and add blocks - cross
+User time: 2 
+System time: 0 
+Real time: 0 s 13392161 ns
+
+dynamic
+
+Creating table
+User time: 9 
+System time: 0 
+Real time: 0 s 93907450 ns
+
+Finding index
+
+User time: 1 
+System time: 0 
+Real time: 0 s 15994545 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 112311 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60709 ns
+Creating table
+User time: 58 
+System time: 0 
+Real time: 0 s 584313037 ns
+
+Finding index
+
+User time: 13 
+System time: 0 
+Real time: 0 s 131802755 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 113471 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60722 ns
+Creating table
+User time: 277 
+System time: 8 
+Real time: 2 s 856114940 ns
+
+Finding index
+
+User time: 63 
+System time: 0 
+Real time: 0 s 626440777 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 126599 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60758 ns
+Creating table
+User time: 542 
+System time: 13 
+Real time: 5 s 560519159 ns
+
+Finding index
+
+User time: 124 
+System time: 0 
+Real time: 1 s 239933946 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 136990 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60972 ns
+
+shared library
+
+
+static
+
+Creating table
+User time: 4 
+System time: 4 
+Real time: 0 s 97987048 ns
+
+Finding index
+
+User time: 4 
+System time: 0 
+Real time: 0 s 31530935 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 192107 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 160448 ns
+Creating table
+User time: 56 
+System time: 2 
+Real time: 0 s 596644144 ns
+
+Finding index
+
+User time: 18 
+System time: 0 
+Real time: 0 s 173751010 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 1378530 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 1380412 ns
+Creating table
+User time: 268 
+System time: 2 
+Real time: 2 s 707323481 ns
+
+Finding index
+
+User time: 77 
+System time: 0 
+Real time: 0 s 775425628 ns
+
+Delete and add blocks
+User time: 1 
+System time: 0 
+Real time: 0 s 7230569 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 6780190 ns
+Creating table
+User time: 537 
+System time: 1 
+Real time: 5 s 391492051 ns
+
+Finding index
+
+User time: 149 
+System time: 0 
+Real time: 1 s 491778810 ns
+
+Delete and add blocks
+User time: 2 
+System time: 0 
+Real time: 0 s 13207017 ns
+
+Delete and add blocks - cross
+User time: 1 
+System time: 0 
+Real time: 0 s 13078149 ns
+
+dynamic
+
+Creating table
+User time: 6 
+System time: 0 
+Real time: 0 s 74962148 ns
+
+Finding index
+
+User time: 2 
+System time: 0 
+Real time: 0 s 16075248 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 114698 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60877 ns
+Creating table
+User time: 55 
+System time: 2 
+Real time: 0 s 583211608 ns
+
+Finding index
+
+User time: 13 
+System time: 1 
+Real time: 0 s 131748164 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 171688 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 84791 ns
+Creating table
+User time: 272 
+System time: 10 
+Real time: 2 s 835210181 ns
+
+Finding index
+
+User time: 64 
+System time: 0 
+Real time: 0 s 636316529 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 128836 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60724 ns
+Creating table
+User time: 576 
+System time: 17 
+Real time: 5 s 937102970 ns
+
+Finding index
+
+User time: 132 
+System time: 0 
+Real time: 1 s 322622593 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 235221 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 76267 ns
+
+dll library
+
+
+static
+
+Creating table
+User time: 6 
+System time: 3 
+Real time: 0 s 94130604 ns
+
+Finding index
+
+User time: 2 
+System time: 0 
+Real time: 0 s 28336972 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 194022 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 164324 ns
+Creating table
+User time: 53 
+System time: 3 
+Real time: 0 s 571430773 ns
+
+Finding index
+
+User time: 14 
+System time: 0 
+Real time: 0 s 150865579 ns
+
+Delete and add blocks
+User time: 1 
+System time: 0 
+Real time: 0 s 1899670 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 1342252 ns
+Creating table
+User time: 266 
+System time: 4 
+Real time: 2 s 709190822 ns
+
+Finding index
+
+User time: 63 
+System time: 0 
+Real time: 0 s 634908511 ns
+
+Delete and add blocks
+User time: 1 
+System time: 0 
+Real time: 0 s 6438268 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 6440945 ns
+Creating table
+User time: 537 
+System time: 3 
+Real time: 5 s 405465540 ns
+
+Finding index
+
+User time: 122 
+System time: 0 
+Real time: 1 s 232706015 ns
+
+Delete and add blocks
+User time: 1 
+System time: 0 
+Real time: 0 s 13260247 ns
+
+Delete and add blocks - cross
+User time: 2 
+System time: 0 
+Real time: 0 s 13080624 ns
+
+dynamic
+
+Creating table
+User time: 8 
+System time: 0 
+Real time: 0 s 82491888 ns
+
+Finding index
+
+User time: 1 
+System time: 0 
+Real time: 0 s 16536365 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 109023 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 62009 ns
+Creating table
+User time: 57 
+System time: 1 
+Real time: 0 s 591926338 ns
+
+Finding index
+
+User time: 13 
+System time: 0 
+Real time: 0 s 133887273 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 122189 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 62117 ns
+Creating table
+User time: 270 
+System time: 11 
+Real time: 2 s 819643515 ns
+
+Finding index
+
+User time: 65 
+System time: 0 
+Real time: 0 s 644614071 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 129908 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 61088 ns
+Creating table
+User time: 545 
+System time: 17 
+Real time: 5 s 633059985 ns
+
+Finding index
+
+User time: 131 
+System time: 0 
+Real time: 1 s 312840836 ns
+
+Delete and add blocks
+User time: 0 
+System time: 0 
+Real time: 0 s 136887 ns
+
+Delete and add blocks - cross
+User time: 0 
+System time: 0 
+Real time: 0 s 60888 ns

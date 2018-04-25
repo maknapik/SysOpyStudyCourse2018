@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1521414220 source:/home/mateusz/Documents/SysOpy studies/Lab2/Zad2/main.c
+	<stdlib.h>
+	<stdio.h>
+	<dirent.h>
+	<string.h>
+	<linux/limits.h>
+	<sys/stat.h>
+	<time.h>
+
+1521581244 source:/home/mateusz/Documents/SysOpyStudies/Lab2/Zad2/main.c
+	<stdlib.h>
+	<stdio.h>
+	<dirent.h>
+	<string.h>
+	<linux/limits.h>
+	<sys/stat.h>
+	<time.h>
+	<ftw.h>
+

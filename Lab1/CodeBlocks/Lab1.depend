@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1520724018 source:/home/mateusz/SysOpy/Lab1/Lab1/library.c
+	"library.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1520723985 /home/mateusz/SysOpy/Lab1/Lab1/library.h
+
+1520723696 source:/home/mateusz/SysOpy/Lab1/Lab1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<dlfcn.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<unistd.h>
+	<inttypes.h>
+	"library.h"
+
+1520893855 source:/home/mateusz/Documents/SysOpy studies/Lab1/library.c
+	"library.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1520893838 /home/mateusz/Documents/SysOpy studies/Lab1/library.h
+
+1520895259 source:/home/mateusz/Documents/SysOpy studies/Lab1/main.c
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<dlfcn.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<unistd.h>
+	<inttypes.h>
+	"library.h"
+
+1520893855 source:/home/mateusz/Documents/SysOpy studies/Lab1/CodeBlocks/library.c
+	"library.h"
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1520893838 /home/mateusz/Documents/SysOpy studies/Lab1/CodeBlocks/library.h
+
+1520895422 source:/home/mateusz/Documents/SysOpy studies/Lab1/CodeBlocks/main.c
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<dlfcn.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<unistd.h>
+	<inttypes.h>
+	"library.h"
+

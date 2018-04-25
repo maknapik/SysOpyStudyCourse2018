@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1522008370 source:/home/mateusz/Documents/SysOpyStudies/Lab3/Zad3/zad3/main.c
+	<stdio.h>
+	<unistd.h>
+	<sys/wait.h>
+	<sys/resource.h>
+	<sys/types.h>
+	<memory.h>
+	<stdlib.h>
+	<sys/time.h>
+
