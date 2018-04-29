@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mateusz/Documents/SysOpyStudyCourse2018/Lab6/CLion1/client.c
+stdio.h
+-
+memory.h
+-
+stdlib.h
+-
+time.h
+-
+sys/msg.h
+-
+bits/signum.h
+-
+signal.h
+-
+unistd.h
+-
+common.h
+/home/mateusz/Documents/SysOpyStudyCourse2018/Lab6/CLion1/common.h
+
+/home/mateusz/Documents/SysOpyStudyCourse2018/Lab6/CLion1/common.h
+
