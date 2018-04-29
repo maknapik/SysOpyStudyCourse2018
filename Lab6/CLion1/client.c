@@ -45,18 +45,19 @@ void fileInput(char *filename)
 
     while(fgets(line, MAXLINE, file))
     {
-        if(strcmp(line, "\n") == 0) continue;
+        char *task = line;
+        if(strcmp(task, "\n") == 0) continue;
 
-        char *operation = strtok_r(NULL, "\n\t", &line);
+        char *operation = strtok_r(NULL, " \n\t", &task);
         if(strcmp(operation, "MIRROR") == 0)
         {
             msg.type = MIRROR;
             if(line == NULL)
             {
-                printf("There is blank line after MIRROR operation.\n");
+                printf("There is a blank line after MIRROR operation.\n");
                 exit(EXIT_FAILURE);
             }
-            sprintf(msg.text, "%s", line);
+            sprintf(msg.text, "%s", task);
             msg.pid = getpid();
             if(msgsnd(serverQueue, &msg, MAXMSGSZ, 0) < 0)
             {
@@ -75,10 +76,10 @@ void fileInput(char *filename)
             msg.type = CALC;
             if(line == NULL)
             {
-                printf("There is blank line after CALC operation.\n");
+                printf("There is a blank line after CALC operation.\n");
                 exit(EXIT_FAILURE);
             }
-            sprintf(msg.text, "%s", line);
+            sprintf(msg.text, "%s", task);
             msg.pid = getpid();
             if(msgsnd(serverQueue, &msg, MAXMSGSZ, 0) < 0)
             {
@@ -144,7 +145,7 @@ void cmdInput()
         }
 
         int i = strlen(line);
-        if(line[i - 1] == '\n') line[i - 1] == 0;
+        if(line[i - 1] == '\n') line[i - 1] = 0;
 
         if(strcmp(line, "MIRROR") == 0)
         {
@@ -261,7 +262,6 @@ int main(int argc, char *argv[])
     msg.type = START;
     msg.pid = getpid();
     sprintf(msg.text, "%d", clientKey);
-
     if(msgsnd(serverQueue, &msg, MAXMSGSZ, 0) < 0)
     {
         printf("Cannot send start message to server.\n");
@@ -285,7 +285,7 @@ int main(int argc, char *argv[])
     {
         fileInput(argv[2]);
     }
-    if(strcmp(argv[2], "c") == 0)
+    else if(strcmp(argv[1], "c") == 0)
     {
         cmdInput();
     }
@@ -295,5 +295,5 @@ int main(int argc, char *argv[])
         exit(EXIT_FAILURE);
     }
 
-    return 0;
+    exit(EXIT_SUCCESS);
 }
