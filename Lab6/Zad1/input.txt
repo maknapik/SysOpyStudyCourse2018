@@ -1,0 +1,12 @@
+MIRROR kobylamamalybok
+
+MIRROR odwrotnie
+
+CALC DIV 8 4
+CALC ADD 2 3
+CALC SUB 7 5
+CALC MUL 9 3
+
+TIME
+
+END
