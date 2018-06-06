@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mateusz/Documents/SysOpyStudyCourse2018/Lab8/CLion1/main.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+math.h
+-
+pthread.h
+-
+sys/time.h
+-
+

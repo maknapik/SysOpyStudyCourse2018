@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/CLion1.dir/client.c.o CMakeFiles/CLion1.dir/server.c.o  -o CLion1 
