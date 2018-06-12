@@ -45,10 +45,10 @@ int calculate(struct Arg *arg, int x, int y)
     float pixel = 0;
     int filterX = 0, filterY = 0, suitI, suitJ;
 
-    for(int i = y - (arg->c / 2) ; i <= y + (arg->c / 2) ; ++i, filterY++)
+    for(int i = y - (arg->c / 2) ; i <= y + (arg->c / 2) ; i++, filterY++)
     {
         filterX = 0;
-        for(int j = x - (arg->c / 2) ; j <= x + (arg->c / 2) ; ++j, filterX++)
+        for(int j = x - (arg->c / 2) ; j <= x + (arg->c / 2) ; j++, filterX++)
         {
             suitI = findSuitable(0, i, (arg->H - 1));
             suitJ = findSuitable(0, j, (arg->W - 1));
@@ -223,5 +223,9 @@ int main(int argc, char *argv[])
         fprintf(output, "\n");
     }
 
+    fclose(input);
+    fclose(filter);
+    fclose(output);
+    
     exit(EXIT_SUCCESS);
 }
